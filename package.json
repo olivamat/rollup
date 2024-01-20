@@ -1,0 +1,25 @@
+{
+  "name": "rollup",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "use bandle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "rollup"
+  ],
+  "author": "Oleh",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "^4.9.5"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.21"
+  }
+}
